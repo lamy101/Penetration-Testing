@@ -1,0 +1,39 @@
+# =========================
+# Operating system files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# =========================
+# Tool output (pentesting)
+# =========================
+nmap/
+*.nmap
+*.gnmap
+*.xml
+
+# Web fuzzing / scanning
+feroxbuster/
+gobuster/
+wfuzz/
+
+# =========================
+# Logs
+# =========================
+*.log
