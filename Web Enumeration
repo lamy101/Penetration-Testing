@@ -1,0 +1,10 @@
+Web Enumeration: 
+
+
+GoBuster: performing DNS, vhost, directory brute forcing and enumeration of AWS S3 buckets. 
+
+gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Content/common.txt
+
+To find username and password: 
+
+view-source:http://IP/
