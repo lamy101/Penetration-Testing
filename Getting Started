@@ -1,10 +1,24 @@
-Web Enumeration: 
+<h1> Web Enumeration: </h1> 
 
 
 GoBuster: performing DNS, vhost, directory brute forcing and enumeration of AWS S3 buckets. 
-
 gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Content/common.txt
 
 To find username and password: 
 
 view-source:http://IP/
+
+
+<h1> Public Exploits: </h1> 
+
+To search for public exploits: searchploit 
+
+Metasploit Primer: The Metasploit Framework (MSF) - It contains built-in exploits for many public vulnerabilities. 
+
+Commands: 
+msfcommand 
+searchsploit openssh 7.2 (used to search for a specific application by its name)
+
+
+<b>Note</b>: Metasploit is essential but to be a weel-rounded tester, we must know how to best leverage all of the tools available to us, understand why they sometimes fail, and know 
+when to pivot to manual techniques. 
